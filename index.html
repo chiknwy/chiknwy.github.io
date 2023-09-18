@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matematika Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kalkulator Matematika Sederhana</h1>
+    <div id="fibonacci">
+        <h2>Deret Fibonacci</h2>
+        <form>
+            <label for="fibonacci-input">Masukkan Angka Ke-n:</label>
+            <input type="number" id="fibonacci-input" min="0">
+            <button type="button" onclick="calculateFibonacci()">Hitung</button>
+        </form>
+        <p>Hasil: <span id="fibonacci-result"></span></p>
+    </div>
+
+    <div id="volume">
+        <h2>Perhitungan Volume Bangun Ruang</h2>
+        <form>
+            <label for="shape-select">Pilih Bangun Ruang:</label>
+            <select id="shape-select">
+                <option value="kubus">Kubus</option>
+                <option value="bola">Bola</option>
+            </select>
+            <div id="kubus-form">
+                <label for="kubus-side">Panjang Sisi Kubus:</label>
+                <input type="number" id="kubus-side">
+            </div>
+            <div id="bola-form" style="display:none;">
+                <label for="bola-radius">Jari-Jari Bola:</label>
+                <input type="number" id="bola-radius">
+            </div>
+            <button type="button" onclick="calculateVolume()">Hitung</button>
+        </form>
+        <p>Hasil: <span id="volume-result"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
