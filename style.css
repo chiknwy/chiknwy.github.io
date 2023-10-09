@@ -1,3 +1,15 @@
+ /* Inline styles (temporary) */
+ .green-text {
+    color: #00ff00;
+}
+
+.font-mono {
+    font-family: monospace;
+}
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}
 body {
     background-color: black;
     margin: 0;
