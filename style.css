@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+#animation-container {
+    animation: moveText 5s linear infinite;
+}
+
