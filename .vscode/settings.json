@@ -1,0 +1,11 @@
+{
+    "window.zoomLevel": -1,
+    "liveServer.settings.port": 5501, 
+    "editor.fontSize": 14,
+    "workbench.colorCustomizations": {
+        "editorLineNumber.foreground": "#00ff00",
+        "editorLineNumber.activeForeground": "#ff0000"
+    },
+    "livePreview.defaultPreviewPath": "/about.html",
+    
+}
